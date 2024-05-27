@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_middle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="end">
+        <ImageView
+        android:id="@+id/back"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/slout"
+            android:layout_width="31dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:src="@drawable/lo1" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:text="Kullanıcı adı"
+            android:textColor="#FBFBFB"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/archivo_black"
+            android:text="Skor"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/scores_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
